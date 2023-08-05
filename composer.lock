@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d271d41f597d3791c8a53fb0b5582b0",
+    "content-hash": "e73debdb79ff525248feee77113d0b3b",
     "packages": [
         {
             "name": "amnuts/opcache-gui",
@@ -1592,6 +1592,67 @@
                 "source": "https://github.com/doctrine/sql-formatter/tree/1.1.3"
             },
             "time": "2022-05-23T21:33:49+00:00"
+        },
+        {
+            "name": "dragonmantank/cron-expression",
+            "version": "v3.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonmantank/cron-expression.git",
+                "reference": "782ca5968ab8b954773518e9e49a6f892a34b2a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/782ca5968ab8b954773518e9e49a6f892a34b2a8",
+                "reference": "782ca5968ab8b954773518e9e49a6f892a34b2a8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0",
+                "webmozart/assert": "^1.0"
+            },
+            "replace": {
+                "mtdowling/cron-expression": "^1.0"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-webmozart-assert": "^1.0",
+                "phpunit/phpunit": "^7.0|^8.0|^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cron\\": "src/Cron/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Tankersley",
+                    "email": "chris@ctankersley.com",
+                    "homepage": "https://github.com/dragonmantank"
+                }
+            ],
+            "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+            "keywords": [
+                "cron",
+                "schedule"
+            ],
+            "support": {
+                "issues": "https://github.com/dragonmantank/cron-expression/issues",
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/dragonmantank",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-09-10T18:51:20+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -3262,6 +3323,66 @@
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem-local/issues",
                 "source": "https://github.com/thephpleague/flysystem-local/tree/3.15.0"
+            },
+            "funding": [
+                {
+                    "url": "https://ecologi.com/frankdejonge",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/frankdejonge",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-05-02T20:02:14+00:00"
+        },
+        {
+            "name": "league/flysystem-sftp-v3",
+            "version": "3.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-sftp-v3.git",
+                "reference": "659d85c63489ef11130b648f2740277a17337c8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-sftp-v3/zipball/659d85c63489ef11130b648f2740277a17337c8b",
+                "reference": "659d85c63489ef11130b648f2740277a17337c8b",
+                "shasum": ""
+            },
+            "require": {
+                "league/flysystem": "^3.0.14",
+                "league/mime-type-detection": "^1.0.0",
+                "php": "^8.0.2",
+                "phpseclib/phpseclib": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\PhpseclibV3\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frankdejonge.nl"
+                }
+            ],
+            "description": "SFTP filesystem adapter for Flysystem.",
+            "keywords": [
+                "Flysystem",
+                "file",
+                "files",
+                "filesystem",
+                "sftp"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/flysystem-sftp-v3/issues",
+                "source": "https://github.com/thephpleague/flysystem-sftp-v3/tree/3.15.0"
             },
             "funding": [
                 {
@@ -5033,6 +5154,66 @@
                 "source": "https://github.com/pimcore/data-hub/tree/v1.6.2"
             },
             "time": "2023-08-01T15:36:11+00:00"
+        },
+        {
+            "name": "pimcore/data-importer",
+            "version": "v1.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pimcore/data-importer.git",
+                "reference": "8eb6000a41324b90fe8739907898725ec984e1a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pimcore/data-importer/zipball/8eb6000a41324b90fe8739907898725ec984e1a2",
+                "reference": "8eb6000a41324b90fe8739907898725ec984e1a2",
+                "shasum": ""
+            },
+            "require": {
+                "dragonmantank/cron-expression": "^3.1",
+                "ext-fileinfo": "*",
+                "ext-json": "*",
+                "league/flysystem-sftp-v3": "^3.0",
+                "nesbot/carbon": "^2.27",
+                "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+                "pimcore/compatibility-bridge-v10": "^1.0",
+                "pimcore/data-hub": "^1.6",
+                "pimcore/pimcore": "^10.6 || ^11.0",
+                "webmozarts/console-parallelization": "^1.2.0 || ^2.0.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.1.12 || ^5.0.3",
+                "codeception/module-asserts": "^2",
+                "codeception/module-symfony": "^1.6.0 || ^3.1.0",
+                "codeception/phpunit-wrapper": "^9",
+                "phpstan/phpstan": "^1.9.11",
+                "phpunit/phpunit": "^9.3"
+            },
+            "suggest": {
+                "pimcore/admin-ui-classic-bundle": "Required for Pimcore 11"
+            },
+            "type": "pimcore-bundle",
+            "extra": {
+                "pimcore": {
+                    "bundles": [
+                        "Pimcore\\Bundle\\DataImporterBundle\\PimcoreDataImporterBundle"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pimcore\\Bundle\\DataImporterBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "support": {
+                "issues": "https://github.com/pimcore/data-importer/issues",
+                "source": "https://github.com/pimcore/data-importer/tree/v1.8.2"
+            },
+            "time": "2023-08-03T13:38:03+00:00"
         },
         {
             "name": "pimcore/pimcore",
