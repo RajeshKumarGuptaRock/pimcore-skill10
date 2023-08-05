@@ -1,0 +1,48 @@
+pimcore_data_hub:
+    configurations:
+        Jp_channel29:
+            general:
+                active: true
+                type: dataImporterDataObject
+                name: Jp_channel29
+                description: ''
+                group: jp
+                path: null
+                modificationDate: 1691260855
+                createDate: 1691260784
+            loaderConfig:
+                type: upload
+                settings:
+                    uploadFilePath: Jp_channel29/upload.import
+            interpreterConfig:
+                type: csv
+                settings:
+                    skipFirstRow: true
+                    delimiter: ','
+                    enclosure: '"'
+                    escape: \
+            resolverConfig:
+                elementType: dataObject
+                dataObjectClassId: '1'
+                loadingStrategy:
+                    type: notLoad
+                createLocationStrategy:
+                    type: staticPath
+                    settings:
+                        path: /
+                locationUpdateStrategy:
+                    type: noChange
+                publishingStrategy:
+                    type: noChangeUnpublishNew
+            processingConfig:
+                executionType: parallel
+                idDataIndex: ''
+            mappingConfig: {  }
+            executionConfig:
+                scheduleType: recurring
+                cronDefinition: ''
+                scheduledAt: ''
+            permissions:
+                user: {  }
+                role: {  }
+            workspaces: {  }

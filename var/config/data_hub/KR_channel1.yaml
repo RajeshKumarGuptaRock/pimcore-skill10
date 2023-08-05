@@ -1,0 +1,48 @@
+pimcore_data_hub:
+    configurations:
+        KR_channel1:
+            general:
+                active: true
+                type: dataImporterDataObject
+                name: KR_channel1
+                description: ''
+                group: KR
+                path: null
+                modificationDate: 1691266625
+                createDate: 1691266574
+            loaderConfig:
+                type: upload
+                settings:
+                    uploadFilePath: KR_channel1/upload.import
+            interpreterConfig:
+                type: csv
+                settings:
+                    skipFirstRow: true
+                    delimiter: ','
+                    enclosure: '"'
+                    escape: \
+            resolverConfig:
+                elementType: dataObject
+                dataObjectClassId: '1'
+                loadingStrategy:
+                    type: notLoad
+                createLocationStrategy:
+                    type: staticPath
+                    settings:
+                        path: /
+                locationUpdateStrategy:
+                    type: noChange
+                publishingStrategy:
+                    type: noChangeUnpublishNew
+            processingConfig:
+                executionType: parallel
+                idDataIndex: ''
+            mappingConfig: {  }
+            executionConfig:
+                scheduleType: recurring
+                cronDefinition: ''
+                scheduledAt: ''
+            permissions:
+                user: {  }
+                role: {  }
+            workspaces: {  }
