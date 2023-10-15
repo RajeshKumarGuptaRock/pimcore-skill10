@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e73debdb79ff525248feee77113d0b3b",
+    "content-hash": "c32950aa0f19c1fec928d6e29ed80c4d",
     "packages": [
         {
             "name": "amnuts/opcache-gui",
@@ -1720,6 +1720,45 @@
                 }
             ],
             "time": "2023-06-01T07:04:22+00:00"
+        },
+        {
+            "name": "elements/process-manager-bundle",
+            "version": "v4.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elements-at/ProcessManager.git",
+                "reference": "bbf57fed22a04f560d58e12d1a6f821a2c9397f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elements-at/ProcessManager/zipball/bbf57fed22a04f560d58e12d1a6f821a2c9397f4",
+                "reference": "bbf57fed22a04f560d58e12d1a6f821a2c9397f4",
+                "shasum": ""
+            },
+            "require": {
+                "dragonmantank/cron-expression": "^v3.1.0",
+                "pimcore/pimcore": ">=10.0"
+            },
+            "type": "pimcore-bundle",
+            "extra": {
+                "pimcore": {
+                    "bundles": [
+                        "Elements\\Bundle\\ProcessManagerBundle\\ElementsProcessManagerBundle"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Elements\\Bundle\\ProcessManagerBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "The Process Manager allows you to manage (define,execute...) arbitrary processes/commands in the Pimcore backend.",
+            "support": {
+                "issues": "https://github.com/elements-at/ProcessManager/issues",
+                "source": "https://github.com/elements-at/ProcessManager/tree/v4.3.8"
+            },
+            "time": "2023-07-25T19:33:50+00:00"
         },
         {
             "name": "endroid/qr-code",
@@ -5062,6 +5101,47 @@
                 }
             ],
             "time": "2023-07-09T15:24:48+00:00"
+        },
+        {
+            "name": "pimcore/bundle-generator",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pimcore/bundle-generator.git",
+                "reference": "d69cb14b8f7aaa50dafb9e929ae189d0ce329cd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pimcore/bundle-generator/zipball/d69cb14b8f7aaa50dafb9e929ae189d0ce329cd9",
+                "reference": "d69cb14b8f7aaa50dafb9e929ae189d0ce329cd9",
+                "shasum": ""
+            },
+            "require": {
+                "pimcore/pimcore": "^10.0"
+            },
+            "type": "pimcore-bundle",
+            "extra": {
+                "pimcore": {
+                    "bundles": [
+                        "Pimcore\\Bundle\\BundleGeneratorBundle\\PimcoreBundleGeneratorBundle"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pimcore\\Bundle\\BundleGeneratorBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "description": "Pimcore Bundle Generator",
+            "support": {
+                "issues": "https://github.com/pimcore/bundle-generator/issues",
+                "source": "https://github.com/pimcore/bundle-generator/tree/v1.0.5"
+            },
+            "time": "2023-05-25T07:33:09+00:00"
         },
         {
             "name": "pimcore/compatibility-bridge-v10",

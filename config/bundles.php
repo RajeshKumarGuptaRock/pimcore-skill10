@@ -5,4 +5,5 @@ return [
     //Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
     PimcoreDataHubBundle::class => ['all' => true],
     PimcoreDataImporterBundle::class => ['all' => true],
+    Elements\Bundle\ProcessManagerBundle\ElementsProcessManagerBundle::class => ['all' => true] 
 ];

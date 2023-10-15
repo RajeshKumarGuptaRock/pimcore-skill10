@@ -1,0 +1,5 @@
+product_export:
+    resource: "@ProductExportBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
